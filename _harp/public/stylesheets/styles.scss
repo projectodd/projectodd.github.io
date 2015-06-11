@@ -1,0 +1,103 @@
+@import "bootstrap.min.css";
+
+body {
+  background-color: #f7f7f7;
+  h1,h2,h3,h4,h5 {
+    font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  a {
+    color: #d9230f;
+  }
+  a:hover {
+    color: #666;
+  }
+
+  .navbar .nav>li>a {
+    font-size: 16px;
+  }
+
+  .navbar .nav>li>a.brand {
+    font-size: 20px;
+  }
+
+  .span4.detail {
+    margin-left: 15px;
+  }
+
+  .post .content .posts-index {
+    h1 {
+      font-size: 180%;
+    }
+    .read-more {
+      text-align: right;
+      padding-bottom: 2em;
+    }
+    .post-excerpt {
+      font-size: 90%;
+      h1, h2, h3  {
+        display: none;
+      }
+    }
+  }
+  pre {
+    background-color: white;
+    font-size: 70%;
+  }
+  
+
+  .sidebar-module {
+    margin: 0 -15px 15px;
+    padding: 15px;
+  }
+
+  .sidebar-module.archives {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+      }
+    }
+  }
+
+  .post {
+    .meta {
+      h1 {
+          font-size: 220%;
+          margin: 10px 0 5px;
+      }
+      h2 {
+        font-size: 120%;
+        margin: 10px 0 5px;
+      }
+      h3 {
+        font-size: 90%;
+        margin: 10px 0 5px;
+      }
+      padding-bottom: 1em;
+    }
+    .content {
+      font-size: 100%;
+      h1 {  
+        padding-top: 1ex;
+        font-size: 160%;
+        line-height: 1em;
+      }
+      h2 {  
+        font-size: 140%;
+        line-height: 1em;
+      }
+      p {
+        line-height: 1.8em;
+        padding-bottom: .5em;
+      }
+      ul {
+        li {
+          line-height: 2em;
+        }
+      }
+    }
+  }
+}

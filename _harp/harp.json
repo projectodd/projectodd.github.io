@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "name": "ProjectOdd Blog",
+    "title": "Odd Thoughts",
+    "org": "Project Odd",
+    "base_url": "/",
+    "github": "http://github.com/projectodd/blog.projectodd.org",
+    "uri": "http://blog.projectodd.org"
+  }
+}

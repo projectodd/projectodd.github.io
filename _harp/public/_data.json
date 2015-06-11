@@ -1,0 +1,15 @@
+{
+  "morning": {
+    "title": "Morning",
+    "author": "Lance Ball",
+    "date": "11 June 2015"
+  },
+
+  "feed": {
+    "layout": false
+  },
+
+  "index": {
+    "disable_comments": true
+  }
+}
